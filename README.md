@@ -1,31 +1,15 @@
-# Tarunkumar-Mudhol
+# Sushmita-Kalasagond
 
 Coding Language: Java  
 
 Problem 1 - Simple Calculator  
-- Class to represent a calculator with two numbers and an operation type  
-- Constructor initializes values for `a`, `b`, and `operation`  
-- Method `calculate()` performs the selected arithmetic operation  
-- Switch case handles `add`, `subtract`, `multiply`, and `divide`  
-- Division by zero is checked before performing division  
-- Exception thrown if an invalid operation is entered  
-- Main method handles user input and displays result  
+This program defines a calculator class that takes two numbers and an operation type as input. The constructor initializes the values, and the calculate() method performs the required arithmetic based on the operation provided. A switch case is used to handle addition, subtraction, multiplication, and division, with a check to prevent division by zero. If an invalid operation is entered, an exception is thrown, and the main method handles user input and displays the final result.
 
 Problem 2 - Odd Number Series (First N Odd Numbers)  
-- Program to print first N odd numbers starting from 1  
-- Formula for nth odd number is `(2 * i - 1)`  
-- Loop runs from `i = 1` to `N` to generate odd numbers  
-- Avoids trailing comma in output formatting  
+This program prints the first N odd numbers starting from 1. It uses the formula (2 * i - 1) inside a loop that runs from i = 1 to N, ensuring that each iteration generates the next odd number in the sequence. The output is formatted cleanly by avoiding any trailing comma at the end of the series. 
 
 Problem 3 - Odd Number Series with Even Handling  
-- Checks if the given number is even, if yes reduces it to previous odd number  
-- Prints odd numbers from 1 up to the final odd limit  
-- Uses step increment of 2 in loop to generate odd numbers  
-- Avoids trailing comma in output formatting  
+This program prints odd numbers from 1 up to a given number. If the entered number is even, it is reduced to the previous odd number to ensure the sequence ends correctly. A loop with a step increment of 2 is used to generate only odd numbers efficiently, and the output is formatted carefully to avoid a trailing comma at the end of the series.
 
 Problem 4 - Count Multiples in a List  
-- Stores numbers in an integer array  
-- Loops from 1 to 9 to check divisibility count for each number  
-- Uses nested loop to check multiples in the list  
-- Stores results in a `LinkedHashMap` to maintain insertion order  
-- Displays counts for each number from 1 to 9  
+This program stores a list of numbers in an integer array and checks how many of them are multiples of the numbers from 1 to 9. It uses nested loops to test divisibility, and the results are stored in a LinkedHashMap to maintain the original ordering of keys. Finally, it displays the total count of multiples for each number from 1 to 9.
